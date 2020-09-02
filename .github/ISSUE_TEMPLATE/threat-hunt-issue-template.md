@@ -10,17 +10,18 @@ assignees: ''
 **Trigger:** <What triggered this hunt>
 **Reference:** <link to TTP description>
 **Acceptance Criteria**  
-This issue can be closed when the playbook has been updated and the report has been written. If the hunt can not be completed, this issue should be marked as blocked. If the issue is no longer needed, it should be labeled as such and then closed.
+This issue can be closed when the abstract has been updated and the report has been written. If the hunt can not be completed, this issue should be marked as blocked. If the issue is no longer needed, it should be labeled as such and then closed.
 
 **Tasks**
 - [ ] Validate Security Gap Exists
 - [ ] Validate Data Visibility/Usability
 - [ ] Define/Refine Playbook
 - [ ] Gather and Analyze Data (According to the Playbook)
-- [ ] Update the Playbooks
+- [ ] Update the Abstract
 - [ ] Write Report
 - [ ] Share Findings
 - [ ] Close Issue
+- [ ] Create New Issue (if needed)
 
 **Note:** 
 - Incidents should be escalated as they are found.
