@@ -7,12 +7,12 @@ labels: threat hunt
 ---
 
 **Title:** Hunt for xyz  
-**Hypothesis:** Brief description of the activity you feel you are not covered for what you will hunted for  
+**Hypothesis:** Brief description of the activity you feel you are not covered for what you will hunt for  
 **Trigger:** What triggered this hunt  
 **Reference:** link to TTP description  
 
 **Acceptance Criteria**  
-This issue can be closed when the abstract has been updated and the report has been written. If the hunt can not be completed, this issue should be marked as blocked. If the issue is no longer needed, it should be labeled as such and then closed.
+This issue can be closed when the abstract has been updated and the report has been written. If the hunt can not be completed, this issue should be marked as blocked. If the hunt is no longer needed, the issue should be labeled as such and then closed.
 
 **Tasks**
 - [ ] Validate Security Gap Exists
