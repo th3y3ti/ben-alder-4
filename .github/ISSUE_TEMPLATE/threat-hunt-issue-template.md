@@ -1,0 +1,29 @@
+---
+name: Threat Hunt
+about: for tracking the progress of a hunt
+title: <hunt_name>
+labels: threat hunt
+assignees: ''
+---
+Title: <Hunt for xyz>
+Hypothesis: <Brief description of the activity you feel you are not covered for what you will hunted for>
+Trigger: <What triggered this hunt>
+
+**Acceptance Criteria**  
+This issue can be closed when the playbook has been updated and the report has been written. If the hunt can not be completed, this issue should be marked as blocked. If the issue is no longer needed, it should be labeled as such and then closed.
+
+**Tasks**
+- [ ] Validate Security Gap Exists
+- [ ] Validate Data Visibility/Usability
+- [ ] Define/Refine Playbook
+- [ ] Gather and Analyze Data (According to the Playbook)
+- [ ] Update the Playbooks
+- [ ] Write Report
+- [ ] Share Findings
+- [ ] Close Issue
+
+**Note:** 
+- Incidents should be escalated as they are found.
+- If you plan to test the security gap exists through adversary emulation, notify your manager and security operations.
+- If you find inappropriate content or other compliance issues, check with management to determine next steps.
+- If this hunt did not produce logic that can be used to address the known gap, open a new issue to repeat the hunt in the future.
