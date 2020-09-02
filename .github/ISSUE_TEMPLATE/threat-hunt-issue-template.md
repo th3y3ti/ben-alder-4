@@ -3,8 +3,9 @@ name: Threat Hunt
 about: for tracking the progress of a hunt
 title: <hunt_name>
 labels: threat hunt
-assignees:''
+
 ---
+
 **Title:** Hunt for xyz  
 **Hypothesis:** Brief description of the activity you feel you are not covered for what you will hunted for  
 **Trigger:** What triggered this hunt  
