@@ -5,6 +5,7 @@ created date: 09/03/2020
 last ran: xx/xx/20xx
 classification: execution
 priority: 1-5
+
 ---
 
 ## Hypothesis
@@ -22,6 +23,9 @@ Reference (links) to attack techniques from MITRE ATT&CK.
 Any actors that use these techniques?
 Is there an active campaign in which these techniques are used?
 
+## Data Collection
+
+
 ## Analytics
 
 ### Analytic 1 - non-interactive powershell
@@ -31,7 +35,11 @@ Is there an active campaign in which these techniques are used?
 * PowerShell being launched by an uncommon parent / grand-parent
 * PowerShell launching uncommon child processes
 
+### Analytic 3 - look for powershell alternate hosts
+(source="WinEventLog:Microsoft-Windows-PowerShell/Operational" ((EventCode="4103" OR EventCode="400") ContextInfo="*") NOT (ContextInfo="powershell.exe" OR Message="powershell.exe"))
+
 ## Reference Information:
+- https://github.com/Neo23x0/sigma/tree/master/rules/windows/powershell
 - https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html
 - https://kurtroggen.wordpress.com/2017/05/17/powershell-security-powershell-downgrade-attacks/
 - https://github.com/gchq/CyberChef
